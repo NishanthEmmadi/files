@@ -13,13 +13,13 @@
           </snapshots>
           <id>central</id>
           <name>libs-release</name>
-          <url>https://207.138.56.108:8443/artifactory/repo</url>
+          <url>https://<<companyArtifactoryDomain>>/artifactory/repo</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshot</name>
-          <url>https://207.138.56.108:8443/artifactory/repo</url>
+          <url>https://<<companyArtifactoryDomain>>/artifactory/repo</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -29,13 +29,13 @@
           </snapshots>
           <id>central</id>
           <name>libs-release</name>
-          <url>https://207.138.56.108:8443/artifactory/repo</url>
+          <url>https://<<companyArtifactoryDomain>>/artifactory/repo</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshot</name>
-          <url>https://207.138.56.108:8443/artifactory/repo</url>
+          <url>https://<<companyArtifactoryDomain>>/artifactory/repo</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
