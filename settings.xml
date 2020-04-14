@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<pluginGroups>
+        <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+    </pluginGroups>
+  <profiles>
+    <profile>
+      <repositories>
+        <repository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>libs-release</name>
+          <url>https://207.138.56.108:8443/artifactory/repo</url>
+        </repository>
+        <repository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>libs-snapshot</name>
+          <url>https://207.138.56.108:8443/artifactory/repo</url>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>libs-release</name>
+          <url>https://207.138.56.108:8443/artifactory/repo</url>
+        </pluginRepository>
+        <pluginRepository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>libs-snapshot</name>
+          <url>https://207.138.56.108:8443/artifactory/repo</url>
+        </pluginRepository>
+      </pluginRepositories>
+      <id>artifactory</id>
+        </profile>
+	</profiles>
+	<activeProfiles> 
+    <activeProfile>artifactory</activeProfile> 
+  </activeProfiles> 
+  <localRepository>/Users/emmadis/.m2/repository</localRepository>
+</settings>
